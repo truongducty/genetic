@@ -1,0 +1,1 @@
+1, Làm sao để khi thay đổi hight của bottom thì ảnh tự động tăng theo

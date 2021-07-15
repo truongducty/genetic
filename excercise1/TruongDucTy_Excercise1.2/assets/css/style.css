@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+.box{
+	border: 3px solid black;
+	max-width: 500px;
+}
+.top{
+	padding: 10px;
+	border-bottom: 3px solid black;
+}
+.bottom{
+	margin: auto;
+	padding: 10px;
+}
+.bottom_top{
+	border: 3px solid black;
+	padding: 10px;
+	background: #8E7CC3;
+}
+.bottom_column{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.item{
+	border: 3px solid black;
+	padding: 10px;
+	width: 30%;	
+	height: 260px;
+}
+.left{
+	background: #E06666;
+}
+.middle{
+	background: #93C47D;
+}
+.right{
+	width: calc(40% - 40px);
+	background: #FF9900;	
+}

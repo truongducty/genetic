@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+.box{
+	width: 800px;
+	height: 550px;
+	border: 1px solid black;
+}
+.top{
+	border-bottom: 1px solid black;
+	height: 5%;
+	padding: 20px;
+	justify-content: left;
+	align-items: center;
+	display: flex;
+}
+.bottom{
+	height: 95%;
+	padding: 10px;	
+}
+.bottom_top{
+	height: 15%;
+	background: green;
+	margin: 10px;
+}
+.bottom_item{
+    display: flex;
+    flex-wrap:wrap;
+}
+.list_item{
+	width: calc(100%/3);
+	padding: 10px;
+}
+.item{
+}

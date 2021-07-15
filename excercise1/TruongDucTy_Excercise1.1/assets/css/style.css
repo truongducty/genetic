@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.box{
+	border: 3px solid black;
+	max-width: 500px;
+}
+.top{
+	padding: 10px;
+	border-bottom: 3px solid black;
+}
+.bottom{
+	padding: 20px;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.item{
+	border: 2px solid black;
+	padding: 20px;
+}
+.left{
+	width: 30%;
+	background: #EA9999;
+}
+.right{
+	width: calc(70% - 30px);
+	background: #9FC5F8;
+}
+.end{	
+	background: #FFE599;
+	border: 3px solid black;
+	padding: 20px;
+}
