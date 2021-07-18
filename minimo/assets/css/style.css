@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	font-family: all;
+	max-width: 1200px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.logo{
+	margin-left: 68.5px;
+}
+.ul{
+	display: flex;
+	justify-content: space-around;
+	width: 800px;
+	margin-right: 10px;
+
+
+}
+.banner{
+	padding: 30px 0;
+	text-align: center;
+}
+.photodiary{
+	padding: 0 120px;
+}
+.comment{
+	padding: 30px 0 30px 120px;
+}
+.main1{
+	display: flex;
+	padding: 0 120px 32px 120px;
+	justify-content: space-between;
+
+}
+.col_left{
+	max-width: 420px;
+}
+.col_right{
+	max-width: 420px;	
+}
+.signup{
+	text-align: center;
+	margin-bottom: 25px;
+
+
+}
+.main2{
+	display: flex;
+	padding: 0 120px 32px 120px;
+	justify-content: space-between;	
+}
+.loadmore{
+	border: 1px solid black;
+	width: 80px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.footer_box{
+	background: #f0f0f0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	display: flex;
+	width: 30%;
+	justify-content: space-around;
+	padding: 20px 0;	
+}
+.tems{
+	margin-left: 70px;
+}
+.follow{
+
+	margin-right: 95px;
+}

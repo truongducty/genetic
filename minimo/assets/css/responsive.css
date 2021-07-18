@@ -1,0 +1,14 @@
+@media screen and (max-width:768px){
+    .top{
+        text-align: center;
+    }
+
+    .bottom_item{
+        display: block;
+    }
+    .list_item{
+        width: 100%;
+        
+    }
+    
+}
