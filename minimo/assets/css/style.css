@@ -1,81 +1,27 @@
-*{
-	box-sizing: border-box;
-}
-.container{
-	font-family: all;
-	max-width: 1200px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .header{
-	display: flex;
-	justify-content: space-between;
-	margin-top: 60px;
-}
-.logo{
-	margin-left: 68.5px;
-}
-.ul{
-	display: flex;
-	justify-content: space-around;
-	width: 800px;
-	margin-right: 10px;
-
-
-}
-.banner{
-	padding: 30px 0;
-	text-align: center;
-}
-.photodiary{
-	padding: 0 120px;
-}
-.comment{
-	padding: 30px 0 30px 120px;
-}
-.main1{
-	display: flex;
-	padding: 0 120px 32px 120px;
-	justify-content: space-between;
-
-}
-.col_left{
-	max-width: 420px;
-}
-.col_right{
-	max-width: 420px;	
-}
-.signup{
-	text-align: center;
-	margin-bottom: 25px;
-	background: #f0f0f0;
-}
-.main2{
-	display: flex;
-	padding: 0 120px 32px 120px;
-	justify-content: space-between;	
-}
-.loadmore{
-	border: 1px solid black;
-	width: 80px;
-    margin: 0 auto;
-    justify-content: center;
+    max-width: 1062px;
+    padding: 70px 0;
     display: flex;
-    margin-bottom: 20px;
+    justify-content: space-between;
 }
-.footer_box{
-	background: #f0f0f0;
-	display: flex;
-	justify-content: space-between;
-}
-.footer{
-	display: flex;
-	width: 30%;
-	justify-content: space-around;
-	padding: 20px 0;	
-}
-.tems{
-	margin-left: 70px;
-}
-.follow{
 
-	margin-right: 95px;
+.nav{
+    display: flex;
+    width: 70%;
+    border: 1px solid black;
 }
+
+.nav ul{
+	display: flex;	
+	justify-items: space-between;
+}
+
+.nav ul li{
+	text-transform: uppercase;
+	justify-content: space-between;
+
+}
+
+
